@@ -3,9 +3,7 @@ package Day06;
 import java.util.Objects;
 import java.util.Scanner;
 
-// ==========================================
 // 1. CUSTOM DOMAIN EXCEPTIONS
-// ==========================================
 
 class LibraryException extends RuntimeException {
     public LibraryException(String message) {
