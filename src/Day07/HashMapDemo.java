@@ -17,5 +17,18 @@ public class HashMapDemo {
         System.out.println(employees.get(102));
         System.out.println(employees.containsKey(103));
         System.out.println(employees.size());
+
+        Map<Integer, String> employees1 = new LinkedHashMap<>();
+
+        employees1.put(101, "Arun");
+        employees1.put(102, "Kumar");
+        employees1.put(103, "Ravi");
+        employees1.put(101, "Hari");
+
+        System.out.println(employees1.entrySet());
+
+        System.out.println(employees1.get(102));
+        System.out.println(employees1.containsKey(103));
+        System.out.println(employees1.size());
     }
 }
