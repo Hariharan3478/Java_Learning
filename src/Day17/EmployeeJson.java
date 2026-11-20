@@ -10,6 +10,7 @@ public class EmployeeJson {
                     "name": "Hari",
                     "role": "Java Developer",
                     "salary": 30000.50 
+                    hari
                 }
                 """;
 
